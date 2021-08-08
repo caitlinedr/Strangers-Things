@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+* {
+    font-family: 'Patrick Hand', cursive;
+}
+
+/* home page */
+
+.initial-home {
+    text-align: center;
+}
+
+#initial-register, #initial-login {
+    font-size: 1.8em;
+    margin: 5px;
+    padding: 15px;
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+/* header */
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+#nav {
+    text-align: center;
+}
+
+.nav {
+    font-size: 1.8em;
+    margin: 5px;
+    padding: 15px;
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+.header {
+    background-color: #56B0E8;
+}
+
+/* form */
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+form {
+    text-align: center;
+    border: solid black 3px;
+    border-radius: 25px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 50px;
+}
+
+input {
+    width: 100%;
+    padding: 20px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+#submit, #opposite {
+    width: 100%;
+    padding: 15px;
+    margin: 5px;
+    font-size: 2.0em;
+    border-radius: 25px;
+}
+
+#or {
+    padding: 15px;
+    margin: 5px;
+    font-size: 2.0em;
+}
+
+input[type="text"], input[type="password"] {
+    font-size:32px;
+}
+
+/* Posts */
+
+h5 {
+    font-size: 35px;
+}
+
+#login {
+    font-size: 1.5em;
+    margin: 5px;
+    padding: 15px;
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+#login-div {
+    text-align: left;
+}
+
+#posts {
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.7em;
+}
+
+#view-post {
+    font-size: 1.0em;
+    margin: 2px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #56B0E8;
+}
+
+#view-post-div {
+    text-align: right;
+}
+
+:visited {
+    text-decoration: none;
+}
+
+#view-my-posts {
+    text-align: right;
+}
+
+#my-posts {
+    font-size: 1.5em;
+    margin: 5px;
+    padding: 15px;
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+#new-post-div {
+    text-align: right;
+}
+
+#new-post {
+    font-size: 1.5em;
+    margin: 5px;
+    padding: 15px;
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+label {
+    font-size: 30px;
+}
+
+input[type=checkbox] {
+    transform: scale(3.5)
+}
+
+#search {
+    text-align: center;
+}
+
+#search input {
+    width: 25%;
+    padding: 20px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+/* Post */
+
+h3 {
+    font-size: 50px;
+    text-align: center;
+}
+
+#post-body {
+    font-size: 35px;
+}
+
+#back {
+    font-size: 1.5em;
+    margin: 5px;
+    padding: 15px;
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+#action-item-div {
+    text-align: right;
+}
+
+#action-item {
+    font-size: 2.0em;
+    margin: 2px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #56B0E8;
+}
+
+/* messages */
+
+#messages {
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1.7em;
+}
+
+#message-title {
+    font-size: larger;
+}
+
+#message-content {
+    color: rgb(100, 99, 99);
+}
+
+#message-body {
+    font-size: 35px;
+    color: rgb(100, 99, 99);
+    padding: 10px;
+    margin-bottom: 10px;
+}
